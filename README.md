@@ -1,4 +1,4 @@
-## Paul
+## Paul CAPIZZI
 
-### AFRAME
-* [labyrinthe](./labyrinthe.html)
+### LABYRINTHE 
+*[labyrinthe v0](./LABYRINTHE/labyrinthe_v0.html)
