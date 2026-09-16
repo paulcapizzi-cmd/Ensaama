@@ -1,4 +1,4 @@
-## DNMADE2
+## Paul
 
 ### AFRAME
 * [labyrinthe](./labyrinthe.html)
