@@ -1,0 +1,29 @@
+<html>
+
+  <head>
+    <script src="https://aframe.io/releases/1.8.0/aframe.min.js"></script>
+  </head>
+
+  <body>
+    <a-scene>
+      <a-assets>
+        <img id ="illusion1" src="./textures/illusion1.png"></a-asset-item>
+        <img id ="illusion2" src="./textures/illusion2.png"></a-asset-item>
+        <img id ="illusion3" src="./textures/illusion3.png"></a-asset-item>
+      </a-assets>
+      <a-plane rotation="-90 180 180" width="4" height="4" color="#7BC8A4" material="side: double"></a-plane>
+      <a-plane position="0 4 0" rotation="-90 180 180" width="4" height="4" color="#7BC8A4" material="side: double"></a-plane>
+      <a-plane material="src: #illusion2; side: double; offset: -0.462; shader: flat" position="2 2 0" width="4" height="4"  rotation="0 90 0" ></a-plane>
+      <a-plane position="-2 2 0" width="4" height="4" color="#ffffff" material="side: double" rotation="0 90 0"></a-plane>
+      <a-plane position="-2 2 0" width="4" height="4" color="#ffffff" material="side: double" rotation="0 90 0"></a-plane>
+      <a-plane material="src: #illusion3; side: double; offset: 0.418; shader: flat" position="0 2 2" width="4" height="4"></a-plane>
+      <a-plane id="entrée"position=" 0.5 2 -2" width="3" height="4" color="#DAD9DA" material="side: double; shader: flat" rotation="0 -180 0"></a-plane>
+      <a-plane position="0 2 1" width="1" height="4" color="#ffb8b8" material="side: double" rotation="0 0 0" geometry="width: 2"></a-plane>
+      <a-plane position="-1 2 -0.5" width="2" height="4" color="#ffb8b8" material="side: double" rotation="0 -90 0" geometry="width: 3"></a-plane>
+      <a-plane position="1 2 0" width="2" height="4" color="#ffb8b8" material="side: double" rotation="0 -90 0" geometry="width: 2"></a-plane>
+      <a-plane position="0.5 2 -1" width="1" height="4" color="#ffb8b8" material="side: double" rotation="0 0 0" geometry="width: 1"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+    </a-scene>
+  </body>
+  
+</html>
